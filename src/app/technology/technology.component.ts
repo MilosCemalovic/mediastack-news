@@ -11,7 +11,7 @@ export class TechnologyComponent implements OnInit {
 
   articles: Article[]
   searchArticle: string
-  order = 'asc'
+  order = 'desc'
   loading = true
 
   constructor(private categoriesService: CategoriesService) { }
